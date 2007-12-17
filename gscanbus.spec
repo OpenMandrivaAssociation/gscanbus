@@ -12,7 +12,6 @@ Patch1: gscanbus-0.7.1-fix-unterminated-strings.patch
 License: GPL
 URL: http://gscanbus.berlios.de/
 Group: System/Kernel and hardware
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: libraw1394-devel
 BuildRequires: automake1.4
 BuildRequires: gtk-devel
