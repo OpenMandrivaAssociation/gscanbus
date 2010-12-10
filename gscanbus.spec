@@ -1,6 +1,6 @@
 %define name gscanbus
 %define version 0.7.1
-%define release %mkrel 8
+%define release %mkrel 9
 
 Summary: A tool to scan IEEE1394 (firewire/i.link) bus
 Name: %{name}
