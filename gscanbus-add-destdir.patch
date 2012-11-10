@@ -1,0 +1,11 @@
+--- ./Makefile.am.gege	Tue Jun  5 19:59:12 2001
++++ ./Makefile.am	Tue Jan 15 00:41:42 2002
+@@ -13,6 +13,6 @@
+ LDADD			= @GTK_LIBS@
+ 
+ install-data-local:
+-	$(INSTALL_DATA) $(srcdir)/guid-resolv.conf /etc/guid-resolv.conf
+-	$(INSTALL_DATA) $(srcdir)/oui-resolv.conf /etc/oui-resolv.conf
++	$(INSTALL_DATA) $(srcdir)/guid-resolv.conf $(DESTDIR)/etc/guid-resolv.conf
++	$(INSTALL_DATA) $(srcdir)/oui-resolv.conf $(DESTDIR)/etc/oui-resolv.conf
+ 
