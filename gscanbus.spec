@@ -49,3 +49,41 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.7.1-9mdv2011.0
++ Revision: 619257
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.7.1-8mdv2010.0
++ Revision: 437819
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.7.1-7mdv2009.0
++ Revision: 246651
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.7.1-5mdv2008.1
++ Revision: 140742
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Tue Jan 16 2007 Stefan van der Eijk <stefan@mandriva.org> 0.7.1-5mdv2007.0
++ Revision: 109644
+- Import gscanbus
+
+* Mon Apr 24 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.7.1-5mdk
+- Add BuildRequires
+- use mkrel
+
+* Fri Mar 18 2005 Olivier Blin <oblin@mandrakesoft.com> 0.7.1-4mdk
+- use automake1.4
+- rebuild for libraw1394
+
+* Sat Mar 13 2004 Guillaume Cottenceau <gc@mandrakesoft.com> 0.7.1-3mdk
+- rebuild per request of Warly's bot
+
