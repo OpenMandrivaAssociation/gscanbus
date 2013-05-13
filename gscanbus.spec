@@ -1,6 +1,6 @@
 %define name gscanbus
 %define version 0.7.1
-%define release %mkrel 9
+%define release  10
 
 Summary: A tool to scan IEEE1394 (firewire/i.link) bus
 Name: %{name}
@@ -12,7 +12,6 @@ Patch1: gscanbus-0.7.1-fix-unterminated-strings.patch
 License: GPL
 URL: http://gscanbus.berlios.de/
 Group: System/Kernel and hardware
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: pkgconfig(libraw1394)
 BuildRequires: automake1.4
 BuildRequires: gtk-devel
