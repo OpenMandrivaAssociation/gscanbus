@@ -13,7 +13,7 @@ License: GPL
 URL: http://gscanbus.berlios.de/
 Group: System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: libraw1394-devel
+BuildRequires: pkgconfig(libraw1394)
 BuildRequires: automake1.4
 BuildRequires: gtk-devel
 
