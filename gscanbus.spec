@@ -10,7 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 Patch0: gscanbus-add-destdir.patch
 Patch1: gscanbus-0.7.1-fix-unterminated-strings.patch
 License: GPL
-URL: http://gscanbus.berlios.de/
+URL: https://gscanbus.berlios.de/
 Group: System/Kernel and hardware
 BuildRequires: pkgconfig(libraw1394)
 BuildRequires: automake1.4
